@@ -1,17 +1,27 @@
-# Smart Maintenance Diagnostic System
-# version 0.1
+from __future__ import annotations
 
-print("Smart Maintenance Diagnostic System")
+import os
+import sys
 
-problem = input("Enter problem: ")
+sys.path.insert(0, os.path.dirname(__file__))
 
-if problem == "pump not working":
-    print("Check power supply")
-    print("Check overload relay")
+from cli import run_cli
 
-elif problem == "motor hot":
-    print("Check bearing")
-    print("Check voltage")
+APP_NAME = "Smart Maintenance Diagnostic (SDM)"
+APP_VERSION = "0.2"
 
-else:
-    print("Problem not in database")
+
+def print_header() -> None:
+    print("=" * 40)
+    print(f"{APP_NAME} v{APP_VERSION}")
+    print("ผู้ช่วยวิเคราะห์อาการเสียของอาคาร (CLI)")
+    print("=" * 40)
+
+
+def run() -> None:
+    print_header()
+    run_cli(APP_NAME, APP_VERSION)
+
+
+if __name__ == "__main__":
+    run()

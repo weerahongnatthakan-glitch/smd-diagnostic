@@ -1,0 +1,47 @@
+[
+  {
+    "category": "ac",
+    "symptom": "ac_not_cold",
+    "result_title": "ระบบวิเคราะห์ยังไม่เชื่อมกับ CLI เต็มรูปแบบ",
+    "confidence": 10,
+    "causes": [
+      "ระบบถามคำถามยังไม่เชื่อม"
+    ]
+  },
+  {
+    "category": "ac",
+    "symptom": "ac_not_cold",
+    "result_title": "ระบบวิเคราะห์ยังไม่เชื่อมกับ CLI เต็มรูปแบบ",
+    "confidence": 10,
+    "causes": [
+      "ระบบถามคำถามยังไม่เชื่อม"
+    ]
+  },
+  {
+    "category": "ac",
+    "symptom": "ac_not_cold",
+    "result_title": "ระบบวิเคราะห์ยังไม่เชื่อมกับ CLI เต็มรูปแบบ",
+    "confidence": 10,
+    "causes": [
+      "ระบบถามคำถามยังไม่เชื่อม"
+    ]
+  },
+  {
+    "category": "ac",
+    "symptom": "ac_not_cold",
+    "result_title": "ระบบวิเคราะห์ยังไม่เชื่อมกับ CLI เต็มรูปแบบ",
+    "confidence": 10,
+    "causes": [
+      "ระบบถามคำถามยังไม่เชื่อม"
+    ]
+  },
+  {
+    "category": "ac",
+    "symptom": "ac_not_cold",
+    "result_title": "แอร์ไม่เย็น (วิเคราะห์เบื้องต้น)",
+    "confidence": 85,
+    "causes": [
+      "คอยล์เย็นเป็นน้ำแข็งจากลมผ่านน้อยหรือน้ำยาแอร์ผิดปกติ"
+    ]
+  }
+]
